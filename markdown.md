@@ -78,6 +78,6 @@ Click [이모지](https://steemit.com/steemkr-guide/@snow-airline/steemkr-quick-
 
 To print message in the console, use `console.log('msg')` and...
 
-```java
+```js
 console.log('msg')
 ```
