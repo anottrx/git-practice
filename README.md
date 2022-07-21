@@ -1,27 +1,26 @@
 # Git 연습 및 공부하기
 
-## 연습
-
-### .gitignore
-
-1. .env 파일을 업로드해서 push한다.
-2. .env 파일을 제거하고, 앞으로도 해당 파일을 무시하기 위해 .env가 입력된 .gitignore을 push한다.
-3. .env 파일을 새로 작성해도 2번 시점부터 .gitignore가 적용되어 .env는 올라가지 않는다. 다만 앞서서 올렸다가 지웠던 .env 기록은 계속 남는다.
+## 문법
 
 ### 할 일 체크하기
 
 - [ ] 할 일
 - [x] 할 일 완료
 
-## 팀 개발을 위한 Git GitHub 시작하기 실습 (책)
+```markdown
+- [ ] 할 일
+- [x] 할 일 완료
+```
 
-개발자 티셔츠 쇼핑몰 오픈소스 최고!
+## 기타 사항
 
-개발자 목록
+### VSCode Extension 추천
 
-1. 고양이
-2. 개
+- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)를 통해 마크다운 문서를 보다 깔끔하게 확인할 수 있다.
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)를 통해 어느 브랜치에 있는지, 누가 어디에서 진행하고 있는지 한눈에 파악하기 쉽다.
 
-## 기타
+### .gitignore
 
-마크다운(Markdown) 6분 순삭 정리 + 깃허브 리드미(README.md) 파일 작성 팁 (유튜브)
+1. .env 파일을 업로드해서 push한다.
+2. .env 파일을 제거하고, 앞으로도 해당 파일을 무시하기 위해 .env가 입력된 .gitignore을 push한다.
+3. .env 파일을 새로 작성해도 2번 시점부터 .gitignore가 적용되어 .env는 올라가지 않는다. 다만 앞서서 올렸다가 지웠던 .env 기록은 계속 남는다.
